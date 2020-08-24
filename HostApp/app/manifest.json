@@ -1,0 +1,28 @@
+﻿{
+	"manifest_version": 2,
+	"name": "Native Messaging Test",
+	"version": "0.1",
+	"permissions": [
+		"nativeMessaging"
+	],
+	//"content_scripts": [
+	//	{
+	//		"js": [
+	//			"content.js"
+	//		],
+	//		"css": [
+	//			"content.css"
+	//		],
+	//		"matches": [
+	//			"<all_urls>"
+	//		],
+	//		"all_frames": true,
+	//		"match_about_blank": true
+	//	}
+	//],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}
